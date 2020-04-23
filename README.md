@@ -1,4 +1,4 @@
-# Python-Simple-Projects
+# Python Simple Projects
 <b>1.Python Calender Module:</b> https://calendar-module.sawravchy.repl.run/<br><br>
 <b>2.Simple Email Scraper:</b> https://Email-Scraper.sawravchy.repl.run<br><br>
 <b>3.Simple Calculator Using Tkinter GUI</b> <br><br><br>
