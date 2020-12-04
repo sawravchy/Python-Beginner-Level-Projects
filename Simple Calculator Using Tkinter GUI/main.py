@@ -1,8 +1,6 @@
-import tkinter
-from tkinter import *
-from tkinter import messagebox
+from tkinter import (Tk, LEFT, Button, Frame, Label, StringVar, messagebox, SE)
 
-root_window = tkinter.Tk()
+root_window = Tk()
 root_window.title("Calculator")
 root_window.geometry("350x550")
 root_window.configure(background="#1D2426")
@@ -17,10 +15,7 @@ def enter1(event):
 
 
 def left1(event):
-    btn1.config(
-        bg="#1D2426",
-        fg="#EA185F",
-    )
+    btn1.config(bg="#1D2426", fg="#EA185F")
 
 
 def enter2(event):
@@ -28,10 +23,7 @@ def enter2(event):
 
 
 def left2(event):
-    btn2.config(
-        bg="#1D2426",
-        fg="#DDDDDD",
-    )
+    btn2.config(bg="#1D2426", fg="#DDDDDD")
 
 
 def enter3(event):
@@ -39,10 +31,7 @@ def enter3(event):
 
 
 def left3(event):
-    btn3.config(
-        bg="#1D2426",
-        fg="#DDDDDD",
-    )
+    btn3.config(bg="#1D2426", fg="#DDDDDD")
 
 
 def enter4(event):
@@ -50,10 +39,7 @@ def enter4(event):
 
 
 def left4(event):
-    btn4.config(
-        bg="#F04F54",
-        fg="#FAFAFA",
-    )
+    btn4.config(bg="#F04F54", fg="#FAFAFA")
 
 
 def enter5(event):
@@ -61,10 +47,7 @@ def enter5(event):
 
 
 def left5(event):
-    btn5.config(
-        bg="#1D2426",
-        fg="#DDDDDD",
-    )
+    btn5.config(bg="#1D2426", fg="#DDDDDD")
 
 
 def enter6(event):
@@ -72,10 +55,7 @@ def enter6(event):
 
 
 def left6(event):
-    btn6.config(
-        bg="#1D2426",
-        fg="#DDDDDD",
-    )
+    btn6.config(bg="#1D2426", fg="#DDDDDD")
 
 
 def enter7(event):
@@ -83,10 +63,7 @@ def enter7(event):
 
 
 def left7(event):
-    btn7.config(
-        bg="#1D2426",
-        fg="#DDDDDD",
-    )
+    btn7.config(bg="#1D2426", fg="#DDDDDD")
 
 
 def enter8(event):
@@ -94,10 +71,7 @@ def enter8(event):
 
 
 def left8(event):
-    btn8.config(
-        bg="#F04F54",
-        fg="#FAFAFA",
-    )
+    btn8.config(bg="#F04F54", fg="#FAFAFA")
 
 
 def enter9(event):
@@ -105,10 +79,7 @@ def enter9(event):
 
 
 def left9(event):
-    btn9.config(
-        bg="#1D2426",
-        fg="#DDDDDD",
-    )
+    btn9.config(bg="#1D2426", fg="#DDDDDD")
 
 
 def enter10(event):
@@ -116,10 +87,7 @@ def enter10(event):
 
 
 def left10(event):
-    btn10.config(
-        bg="#1D2426",
-        fg="#DDDDDD",
-    )
+    btn10.config(bg="#1D2426", fg="#DDDDDD")
 
 
 def enter11(event):
@@ -127,10 +95,7 @@ def enter11(event):
 
 
 def left11(event):
-    btn11.config(
-        bg="#1D2426",
-        fg="#DDDDDD",
-    )
+    btn11.config(bg="#1D2426", fg="#DDDDDD")
 
 
 def enter12(event):
@@ -138,10 +103,7 @@ def enter12(event):
 
 
 def left12(event):
-    btn12.config(
-        bg="#F04F54",
-        fg="#DDDDDD",
-    )
+    btn12.config(bg="#F04F54", fg="#DDDDDD")
 
 
 def enter13(event):
@@ -149,10 +111,7 @@ def enter13(event):
 
 
 def left13(event):
-    btn13.config(
-        bg="#1D2426",
-        fg="#DDDDDD",
-    )
+    btn13.config(bg="#1D2426", fg="#DDDDDD")
 
 
 def enter14(event):
@@ -160,10 +119,7 @@ def enter14(event):
 
 
 def left14(event):
-    btn14.config(
-        bg="#1D2426",
-        fg="#DDDDDD",
-    )
+    btn14.config(bg="#1D2426", fg="#DDDDDD")
 
 
 def enter15(event):
@@ -182,10 +138,7 @@ def enter16(event):
 
 
 def left16(event):
-    btn16.config(
-        bg="#F04F54",
-        fg="#FAFAFA",
-    )
+    btn16.config(bg="#F04F54", fg="#FAFAFA")
 
 
 def enter17(event):
@@ -193,10 +146,7 @@ def enter17(event):
 
 
 def left17(event):
-    btn17.config(
-        bg="#1D2426",
-        fg="#DDDDDD",
-    )
+    btn17.config(bg="#1D2426", fg="#DDDDDD")
 
 
 def enter18(event):
@@ -204,10 +154,7 @@ def enter18(event):
 
 
 def left18(event):
-    btn18.config(
-        bg="#1D2426",
-        fg="#DDDDDD",
-    )
+    btn18.config(bg="#1D2426", fg="#DDDDDD")
 
 
 def enter19(event):
@@ -215,10 +162,7 @@ def enter19(event):
 
 
 def left19(event):
-    btn19.config(
-        bg="#1D2426",
-        fg="#EA185F",
-    )
+    btn19.config(bg="#1D2426", fg="#EA185F")
 
 
 def enter20(event):
@@ -226,10 +170,7 @@ def enter20(event):
 
 
 def left20(event):
-    btn20.config(
-        bg="#FEC10E",
-        fg="#1E2326",
-    )
+    btn20.config(bg="#FEC10E", fg="#1E2326")
 
 
 #Button clicked functions
@@ -387,41 +328,21 @@ def btn18click():
 
 #///////////////
 resultrow = Frame(root_window, bg="#DDDDDD", height=130, bd=1)
-resultrow.pack(
-    expand=True,
-    fill="both",
-)
+resultrow.pack(expand=True, fill="both")
 btnrow1 = Frame(root_window, bg="#A8A8A8", bd=0.4)
-btnrow1.pack(
-    expand=True,
-    fill="both",
-)
+btnrow1.pack(expand=True, fill="both")
 btnrow2 = Frame(root_window, bg="#A8A8A8", bd=0.4)
-btnrow2.pack(
-    expand=True,
-    fill="both",
-)
+btnrow2.pack(expand=True, fill="both")
 btnrow3 = Frame(root_window, bg="#A8A8A8", bd=0.4)
-btnrow3.pack(
-    expand=True,
-    fill="both",
-)
+btnrow3.pack(expand=True, fill="both")
 btnrow4 = Frame(root_window, bg="#A8A8A8", bd=0.4)
-btnrow4.pack(
-    expand=True,
-    fill="both",
-)
+btnrow4.pack(expand=True, fill="both")
 btnrow5 = Frame(root_window, bg="#A8A8A8", bd=0.4)
-btnrow5.pack(
-    expand=True,
-    fill="both",
-)
+btnrow5.pack(expand=True, fill="both")
+
 btn1 = Button(btnrow1,
               text="C",
-              font=(
-                  "Paytone One",
-                  18,
-              ),
+              font=("Paytone One", 18),
               bg="#1D2426",
               fg="#EA185F",
               bd=0.4,
@@ -429,34 +350,27 @@ btn1 = Button(btnrow1,
 btn1.pack(side=LEFT, expand=True, fill="both")
 btn1.bind("<Enter>", enter1)
 btn1.bind("<Leave>", left1)
-btn2 = Button(
-    btnrow1,
-    text="+/-",
-    font=("Paytone One", 18),
-    bg="#1D2426",
-    fg="#DDDDDD",
-    bd=0.4,
-)
-btn2.pack(
-    side=LEFT,
-    expand=True,
-    fill="both",
-)
+
+btn2 = Button(btnrow1,
+              text="+/-",
+              font=("Paytone One", 18),
+              bg="#1D2426",
+              fg="#DDDDDD",
+              bd=0.4)
+btn2.pack(side=LEFT, expand=True, fill="both")
 btn2.bind("<Enter>", enter2)
 btn2.bind("<Leave>", left2)
+
 btn3 = Button(btnrow1,
               text="%",
               font=("Paytone One", 18),
               bg="#1D2426",
               fg="#DDDDDD",
               bd=0.4)
-btn3.pack(
-    side=LEFT,
-    expand=True,
-    fill="both",
-)
+btn3.pack(side=LEFT, expand=True, fill="both")
 btn3.bind("<Enter>", enter3)
 btn3.bind("<Leave>", left3)
+
 btn4 = Button(btnrow1,
               text="÷",
               font=("Paytone One", 22),
@@ -464,13 +378,10 @@ btn4 = Button(btnrow1,
               fg="#FAFAFA",
               bd=0.3,
               command=btn4click)
-btn4.pack(
-    side=LEFT,
-    expand=True,
-    fill="both",
-)
+btn4.pack(side=LEFT, expand=True, fill="both")
 btn4.bind("<Enter>", enter4)
 btn4.bind("<Leave>", left4)
+
 btn5 = Button(btnrow2,
               text="7",
               font=("Paytone One", 18),
@@ -478,13 +389,10 @@ btn5 = Button(btnrow2,
               fg="#DDDDDD",
               bd=0.4,
               command=btn5click)
-btn5.pack(
-    side=LEFT,
-    expand=True,
-    fill="both",
-)
+btn5.pack(side=LEFT, expand=True, fill="both")
 btn5.bind("<Enter>", enter5)
 btn5.bind("<Leave>", left5)
+
 btn6 = Button(btnrow2,
               text="8",
               font=("Paytone One", 20),
@@ -492,13 +400,10 @@ btn6 = Button(btnrow2,
               fg="#DDDDDD",
               bd=0.4,
               command=btn6click)
-btn6.pack(
-    side=LEFT,
-    expand=True,
-    fill="both",
-)
+btn6.pack(side=LEFT, expand=True, fill="both")
 btn6.bind("<Enter>", enter6)
 btn6.bind("<Leave>", left6)
+
 btn7 = Button(btnrow2,
               text="9",
               font=("Paytone One", 20),
@@ -506,13 +411,10 @@ btn7 = Button(btnrow2,
               fg="#DDDDDD",
               bd=0.4,
               command=btn7click)
-btn7.pack(
-    side=LEFT,
-    expand=True,
-    fill="both",
-)
+btn7.pack(side=LEFT, expand=True, fill="both")
 btn7.bind("<Enter>", enter7)
 btn7.bind("<Leave>", left7)
+
 btn8 = Button(btnrow2,
               text="x",
               font=("Verdana", 18),
@@ -520,13 +422,10 @@ btn8 = Button(btnrow2,
               fg="#FAFAFA",
               bd=0.4,
               command=btn8click)
-btn8.pack(
-    side=LEFT,
-    expand=True,
-    fill="both",
-)
+btn8.pack(side=LEFT, expand=True, fill="both")
 btn8.bind("<Enter>", enter8)
 btn8.bind("<Leave>", left8)
+
 btn9 = Button(btnrow3,
               text="4",
               font=("Paytone One", 20),
@@ -534,13 +433,10 @@ btn9 = Button(btnrow3,
               fg="#DDDDDD",
               bd=0.4,
               command=btn9click)
-btn9.pack(
-    side=LEFT,
-    expand=True,
-    fill="both",
-)
+btn9.pack(side=LEFT, expand=True, fill="both")
 btn9.bind("<Enter>", enter9)
 btn9.bind("<Leave>", left9)
+
 btn10 = Button(btnrow3,
                text="5",
                font=("Paytone One", 20),
@@ -548,13 +444,10 @@ btn10 = Button(btnrow3,
                fg="#DDDDDD",
                bd=0.4,
                command=btn10click)
-btn10.pack(
-    side=LEFT,
-    expand=True,
-    fill="both",
-)
+btn10.pack(side=LEFT, expand=True, fill="both")
 btn10.bind("<Enter>", enter10)
 btn10.bind("<Leave>", left10)
+
 btn11 = Button(btnrow3,
                text="6",
                font=("Paytone One", 20),
@@ -562,13 +455,10 @@ btn11 = Button(btnrow3,
                fg="#DDDDDD",
                bd=0.4,
                command=btn11click)
-btn11.pack(
-    side=LEFT,
-    expand=True,
-    fill="both",
-)
+btn11.pack(side=LEFT, expand=True, fill="both")
 btn11.bind("<Enter>", enter11)
 btn11.bind("<Leave>", left11)
+
 btn12 = Button(btnrow3,
                text="-",
                font=("PVerdana", 24),
@@ -591,13 +481,10 @@ btn13 = Button(btnrow4,
                fg="#DDDDDD",
                bd=0.4,
                command=btn13click)
-btn13.pack(
-    side=LEFT,
-    expand=True,
-    fill="both",
-)
+btn13.pack(side=LEFT, expand=True, fill="both")
 btn13.bind("<Enter>", enter13)
 btn13.bind("<Leave>", left13)
+
 btn14 = Button(btnrow4,
                text="2",
                font=("Paytone One", 20),
@@ -605,13 +492,10 @@ btn14 = Button(btnrow4,
                fg="#DDDDDD",
                bd=0.4,
                command=btn14click)
-btn14.pack(
-    side=LEFT,
-    expand=True,
-    fill="both",
-)
+btn14.pack(side=LEFT, expand=True, fill="both")
 btn14.bind("<Enter>", enter14)
 btn14.bind("<Leave>", left14)
+
 btn15 = Button(btnrow4,
                text="3",
                font=("Paytone One", 20),
@@ -619,13 +503,10 @@ btn15 = Button(btnrow4,
                fg="#DDDDDD",
                bd=0.4,
                command=btn15click)
-btn15.pack(
-    side=LEFT,
-    expand=True,
-    fill="both",
-)
+btn15.pack(side=LEFT, expand=True, fill="both")
 btn15.bind("<Enter>", enter15)
 btn15.bind("<Leave>", left15)
+
 btn16 = Button(btnrow4,
                text="+",
                font=("Paytone One", 19),
@@ -633,11 +514,7 @@ btn16 = Button(btnrow4,
                fg="#FAFAFA",
                bd=0.4,
                command=btn16click)
-btn16.pack(
-    side=LEFT,
-    expand=True,
-    fill="both",
-)
+btn16.pack(side=LEFT, expand=True, fill="both")
 btn16.bind("<Enter>", enter16)
 btn16.bind("<Leave>", left16)
 
@@ -648,11 +525,7 @@ btn17 = Button(btnrow5,
                fg="#DDDDDD",
                bd=0.4,
                command=btn17click)
-btn17.pack(
-    side=LEFT,
-    expand=True,
-    fill="both",
-)
+btn17.pack(side=LEFT, expand=True, fill="both")
 btn17.bind("<Enter>", enter17)
 btn17.bind("<Leave>", left17)
 
@@ -663,26 +536,20 @@ btn18 = Button(btnrow5,
                fg="#DDDDDD",
                bd=0.4,
                command=btn18click)
-btn18.pack(
-    side=LEFT,
-    expand=True,
-    fill="both",
-)
+btn18.pack(side=LEFT, expand=True, fill="both")
 btn18.bind("<Enter>", enter18)
 btn18.bind("<Leave>", left18)
+
 btn19 = Button(btnrow5,
                text="DEL",
                font=("Paytone One", 13),
                bg="#1D2426",
                fg="#ED1B4C",
                bd=0.4)
-btn19.pack(
-    side=LEFT,
-    expand=True,
-    fill="both",
-)
+btn19.pack(side=LEFT, expand=True, fill="both")
 btn19.bind("<Enter>", enter19)
 btn19.bind("<Leave>", left19)
+
 btn20 = Button(btnrow5,
                text="=",
                font=("Verdana", 17),
@@ -690,11 +557,7 @@ btn20 = Button(btnrow5,
                fg="#1E2326",
                bd=0.4,
                command=btn20click)
-btn20.pack(
-    side=LEFT,
-    expand=True,
-    fill="both",
-)
+btn20.pack(side=LEFT, expand=True, fill="both")
 btn20.bind("<Enter>", enter20)
 btn20.bind("<Leave>", left20)
 
